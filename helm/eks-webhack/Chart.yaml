@@ -1,0 +1,6 @@
+apiVersion: v2
+name: eks-webhack
+description: Routes webhook traffic through NodePort services so the EKS control plane can reach webhook endpoints on overlay-networked pods.
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

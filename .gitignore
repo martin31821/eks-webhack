@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.out
+*.dylib
+bin/*
+tmpbin/*
+Dockerfile.cross
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Build artifacts
+dist/
+
+# Go workspace file
+go.work
+
+# Kubernetes Generated files - skip generated files, except for vendored files
+!vendor/**/zz_generated.*
+
+# Editor and IDE
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+main
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Claude Code
+.claude/
+
+# GSD
+.gsd
+.gsd-id
+
+# Misc
+.mcp.json
+.bg-shell/
+.agents
+.dsp
+skills-lock.json
+releases/
+*.log
